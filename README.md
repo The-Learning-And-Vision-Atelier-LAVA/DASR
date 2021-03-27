@@ -6,10 +6,10 @@ Pytorch implementation of "Unsupervised Degradation Representation Learning for 
 
 ## Overview
 
-<img width="750" src="https://github.com/LongguangWang/DASR/blob/master/Figs/fig.1.png"/></div>
+<img width="750" src="https://github.com/LongguangWang/DASR/tree/main/Figs/fig.1.png"/></div>
 
 
-<img width="650" src="https://github.com/LongguangWang/DASR/blob/master/Figs/fig.2.png"/></div>
+<img width="650" src="https://github.com/LongguangWang/DASR/tree/main/Figs/fig.2.png"/></div>
 
 
 ## Requirements
@@ -43,28 +43,28 @@ Run `./test.sh` to test on benchmark datasets. Please update `dir_data` in the b
 
 
 ## Visualization of Degradation Representations
-<img width="650" src="https://github.com/LongguangWang/SMSR/blob/master/Figs/fig6.png"/></div>
+<img width="650" src="https://github.com/LongguangWang/DASR/tree/main/Figs/fig6.png"/></div>
 
 ## Comparative Results
 ### Noise-Free Degradations with Isotropic Gaussian Kernels
 
-<img width="650" src="https://github.com/LongguangWang/SMSR/blob/master/Figs/tab2.png"/></div>
+<img width="650" src="https://github.com/LongguangWang/DASR/tree/main/Figs/tab2.png"/></div>
 
-<img width="650" src="https://github.com/LongguangWang/SMSR/blob/master/Figs/fig.5.png"/></div>
+<img width="650" src="https://github.com/LongguangWang/DASR/tree/main/Figs/fig.5.png"/></div>
 
 
 ### General Degradations with Anisotropic Gaussian Kernels and Noises
-<img width="650" src="https://github.com/LongguangWang/SMSR/blob/master/Figs/tab3.png"/></div>
+<img width="650" src="https://github.com/LongguangWang/DASR/tree/main/Figs/tab3.png"/></div>
 
-<img width="650" src="https://github.com/LongguangWang/SMSR/blob/master/Figs/fig.7.png"/></div>
+<img width="650" src="https://github.com/LongguangWang/DASR/tree/main/Figs/fig.7.png"/></div>
 
 ### Unseen Degradations 
 
-<img width="350" src="https://github.com/LongguangWang/SMSR/blob/master/Figs/fig.III.png"/></div>
+<img width="350" src="https://github.com/LongguangWang/DASR/tree/main/Figs/fig.III.png"/></div>
 
 ### Real Degradations (AIM real-world SR challenge)
 
-<img width="350" src="https://github.com/LongguangWang/SMSR/blob/master/Figs/fig.III.png"/></div>
+<img width="350" src="https://github.com/LongguangWang/DASR/tree/main/Figs/fig.III.png"/></div>
 
 ## Citation
 ```
