@@ -6,7 +6,7 @@ Pytorch implementation of "Unsupervised Degradation Representation Learning for 
 
 ## Overview
 
-<p align="center"> <img src="Figs/fig.1.png" width="100%"> </p>
+<p align="center"> <img src="Figs/fig.1.png" width="70%"> </p>
 
 
 <p align="center"> <img src="Figs/fig.2.png" width="100%"> </p>
@@ -43,7 +43,7 @@ Run `./test.sh` to test on benchmark datasets. Please update `dir_data` in the b
 
 
 ## Visualization of Degradation Representations
-<p align="center"> <img src="Figs/fig.6.png" width="100%"> </p>
+<p align="center"> <img src="Figs/fig.6.png" width="70%"> </p>
 
 ## Comparative Results
 ### Noise-Free Degradations with Isotropic Gaussian Kernels
@@ -60,11 +60,11 @@ Run `./test.sh` to test on benchmark datasets. Please update `dir_data` in the b
 
 ### Unseen Degradations 
 
-<p align="center"> <img src="Figs/fig.III.png" width="100%"> </p>
+<p align="center"> <img src="Figs/fig.III.png" width="70%"> </p>
 
 ### Real Degradations (AIM real-world SR challenge)
 
-<p align="center"> <img src="Figs/fig.VII.png" width="100%"> </p>
+<p align="center"> <img src="Figs/fig.VII.png" width="70%"> </p>
 
 ## Citation
 ```
