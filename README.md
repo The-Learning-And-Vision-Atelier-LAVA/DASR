@@ -30,7 +30,7 @@ Pytorch implementation of "Unsupervised Degradation Representation Learning for 
 1.2 Combine the HR images from these two datasets in `your_data_path/DF2K/HR` to build the DF2K dataset. 
 
 ### 2. Begin to train
-Run `./main.sh` to train on the DF2K dataset. Please update `dir_data` in the bash file as your data path.
+Run `./main.sh` to train on the DF2K dataset. Please update `dir_data` in the bash file as `your_data_path`.
 
 
 ## Test
@@ -39,7 +39,7 @@ Download [benchmark datasets](https://github.com/xinntao/BasicSR/blob/a19aac61b2
 
 
 ### 2. Begin to test
-Run `./test.sh` to test on benchmark datasets. Please update `dir_data` in the bash file as your data path.
+Run `./test.sh` to test on benchmark datasets. Please update `dir_data` in the bash file as `your_data_path`.
 
 
 ## Visualization of Degradation Representations
@@ -60,11 +60,11 @@ Run `./test.sh` to test on benchmark datasets. Please update `dir_data` in the b
 
 ### Unseen Degradations 
 
-<p align="center"> <img src="Figs/fig.III.png" width="55%"> </p>
+<p align="center"> <img src="Figs/fig.III.png" width="50%"> </p>
 
 ### Real Degradations (AIM real-world SR challenge)
 
-<p align="center"> <img src="Figs/fig.VII.png" width="55%"> </p>
+<p align="center"> <img src="Figs/fig.VII.png" width="50%"> </p>
 
 ## Citation
 ```
