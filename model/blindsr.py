@@ -28,7 +28,7 @@ class DA_conv(nn.Module):
 
     def forward(self, x):
         '''
-        :param x[0]: img: B * C * H * W
+        :param x[0]: feature map: B * C * H * W
         :param x[1]: degradation representation: B * C
         '''
         b, c, h, w = x[0].size()
@@ -56,7 +56,7 @@ class CA_layer(nn.Module):
 
     def forward(self, x):
         '''
-        :param x[0]: img: B * C * H * W
+        :param x[0]: feature map: B * C * H * W
         :param x[1]: degradation representation: B * C
         '''
         att = self.conv_du(x[1][:, :, None, None])
@@ -77,7 +77,7 @@ class DAB(nn.Module):
 
     def forward(self, x):
         '''
-        :param x[0]: img: B * C * H * W
+        :param x[0]: feature map: B * C * H * W
         :param x[1]: degradation representation: B * C
         '''
 
@@ -103,7 +103,7 @@ class DAG(nn.Module):
 
     def forward(self, x):
         '''
-        :param x[0]: img: B * C * H * W
+        :param x[0]: feature map: B * C * H * W
         :param x[1]: degradation representation: B * C
         '''
         res = x[0]
