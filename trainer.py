@@ -52,6 +52,8 @@ class Trainer():
             blur_type=self.args.blur_type,
             sig_min=self.args.sig_min,
             sig_max=self.args.sig_max,
+            lambda_min=self.args.lambda_min,
+            lambda_max=self.args.lambda_max,
             noise=self.args.noise
         )
 
@@ -141,6 +143,8 @@ class Trainer():
                     kernel_size=self.args.blur_kernel,
                     blur_type=self.args.blur_type,
                     sig=self.args.sig,
+                    lambda_1=self.args.lambda_1,
+                    lambda_2=self.args.lambda_2,
                     noise=self.args.noise
                 )
 
