@@ -271,7 +271,7 @@ class SRMDPreprocessing(object):
     def __call__(self, hr_tensor, random=True):
         with torch.no_grad():
             # only downsampling
-            if self.gen_kernel.sig == 0:
+            if self.gen_kernel.blur_type == 'iso_gaussian' and self.gen_kernel.sig == 0:
                 B, N, C, H, W = hr_tensor.size()
                 hr_blured = hr_tensor.view(-1, C, H, W)
                 b_kernels = None
