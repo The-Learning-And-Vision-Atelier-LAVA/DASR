@@ -42,6 +42,9 @@ Download [benchmark datasets](https://github.com/xinntao/BasicSR/blob/a19aac61b2
 Run `./test.sh` to test on benchmark datasets. Please update `dir_data` in the bash file as `your_data_path`.
 
 
+## Quick Test on An LR Image
+Run `./quick_test.sh` to test on an LR image. Please update `img_dir` in the bash file as `your_img_path`.
+
 ## Visualization of Degradation Representations
 <p align="center"> <img src="Figs/fig.6.png" width="50%"> </p>
 
