@@ -70,7 +70,7 @@ parser.add_argument('--lambda_1', type=float, default=0.2,
 parser.add_argument('--lambda_2', type=float, default=4.0,
                     help='another eigenvalue of anisotropic Gaussian blurs')
 parser.add_argument('--theta', type=float, default=0.0,
-                    help='rotation angle of anisotropic Gaussian blurs')
+                    help='rotation angle of anisotropic Gaussian blurs [0, 180]')
 
 
 # Model specifications
