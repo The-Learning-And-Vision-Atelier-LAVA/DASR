@@ -145,6 +145,7 @@ class Trainer():
                     sig=self.args.sig,
                     lambda_1=self.args.lambda_1,
                     lambda_2=self.args.lambda_2,
+                    theta=self.args.theta,
                     noise=self.args.noise
                 )
 
