@@ -41,7 +41,7 @@ def isotropic_gaussian_kernel(batch, kernel_size, sigma):
 
 
 def random_anisotropic_gaussian_kernel(batch=1, kernel_size=21, lambda_min=0.2, lambda_max=4.0):
-    theta = torch.rand(batch).cuda() * math.pi
+    theta = torch.rand(batch).cuda() / 180 * math.pi
     lambda_1 = torch.rand(batch).cuda() * (lambda_max - lambda_min) + lambda_min
     lambda_2 = torch.rand(batch).cuda() * (lambda_max - lambda_min) + lambda_min
 
