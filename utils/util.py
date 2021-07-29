@@ -51,7 +51,7 @@ def random_anisotropic_gaussian_kernel(batch=1, kernel_size=21, lambda_min=0.2, 
 
 
 def stable_anisotropic_gaussian_kernel(kernel_size=21, theta=0, lambda_1=0.2, lambda_2=4.0):
-    theta = torch.ones(1).cuda() * theta * math.pi
+    theta = torch.ones(1).cuda() * theta / 180 * math.pi
     lambda_1 = torch.ones(1).cuda() * lambda_1
     lambda_2 = torch.ones(1).cuda() * lambda_2
 
